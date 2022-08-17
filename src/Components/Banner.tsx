@@ -12,8 +12,8 @@ interface Props {
 export const Banner = ({netflixOriginals}:Props) => {
     const [movie,setMovie] = useState<Movie | null>(null)
 
-     useEffect(() => {
-        setMovie(netflixOriginals[3])
+    useEffect(() => {
+        setMovie(netflixOriginals[Math.floor(Math.random() * netflixOriginals.length)])
     }, [netflixOriginals])
 
   return (
@@ -30,7 +30,7 @@ export const Banner = ({netflixOriginals}:Props) => {
         <h1 className="text-2xl font-bold md:text-4xl lg:text-7xl text-white">
             {movie?.title || movie?.name || movie?.original_name}
         </h1>
-        <p className="max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl text-white">
+        <p className="max-w-xs text-shadow-md text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl text-white">
             {movie?.overview}
         </p>
 
