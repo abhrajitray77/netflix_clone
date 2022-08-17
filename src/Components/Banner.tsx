@@ -12,10 +12,10 @@ interface Props {
 export const Banner = ({netflixOriginals}:Props) => {
     const [movie,setMovie] = useState<Movie | null>(null)
 
-/*     useEffect(() => {
-        setMovie(netflixOriginals[Math.floor(Math.random())])
+     useEffect(() => {
+        setMovie(netflixOriginals[3])
     }, [netflixOriginals])
- */
+
   return (
     <div className="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-end
                     lg:pb-12">
