@@ -13,7 +13,7 @@ export const Banner = ({netflixOriginals}:Props) => {
     const [movie,setMovie] = useState<Movie | null>(null)
 
     useEffect(() => {
-        setMovie(netflixOriginals[Math.floor(Math.random() * 5)])
+        setMovie(netflixOriginals[Math.floor(Math.random())])
     }, [netflixOriginals])
 
   return (
