@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { SearchIcon, BellIcon } from '@heroicons/react/solid'
+import Image from 'next/image';
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 
@@ -26,10 +27,11 @@ function Header() {
   return (
     <header className={`${isScrolled && 'bg-[#141414]'}`}>
         <div className="flex items-center space-x-2 md:space-x-10">
-            <img className="cursor-pointer object-contain"
+            <Image className="cursor-pointer object-contain"
                 src= "https://rb.gy/ulxxee"
+                layout='fixed'
                 width={100}
-                height={100}
+                height={30}
                 alt="assa"
             />
             <ul className="hidden space-x-4 md:flex ">
