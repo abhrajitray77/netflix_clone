@@ -27,11 +27,11 @@ function Header() {
   return (
     <header className={`${isScrolled && 'bg-[#141414]'}`}>
         <div className="flex items-center space-x-2 md:space-x-10">
-            <Image className="cursor-pointer object-contain"
+            <Image className=" cursor-pointer object-contain"
                 src= "https://rb.gy/ulxxee"
-                layout='fixed'
+                layout='intrinsic'
                 width={100}
-                height={30}
+                height={40}
                 alt="assa"
             />
             <ul className="hidden space-x-4 md:flex ">
