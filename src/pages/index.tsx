@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 import requests from '../../utils/requests'
 import { Movie } from '../../typings'
 import { Banner } from '../Components/Banner'
-import Row from '../Components/Row'
+import Row from '../Components/Row'  
 
 interface Props {
   netflixOriginals: Movie[]
