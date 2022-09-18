@@ -68,7 +68,7 @@ const Login = () => {
           </label>
           { errors.password && (
             <p className="p-1 text-[13px] font-light text-orange-500">
-              Please enter a valid password.
+              Password must constain between 4 to 20 characters
             </p>
           )}
         </div>
