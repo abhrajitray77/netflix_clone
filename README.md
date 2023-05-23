@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Netflix Clone
+
+[netflix-rec.webm](https://github.com/abhrajitray77/netflix_clone/assets/67530432/314845a0-068f-4cd8-b819-60acd6fa31e1)
+
+## Tech Stack:
+Next.js, Tailwind CSS, Typescript, TMDB API
 
 ## Getting Started
 
