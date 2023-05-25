@@ -1,6 +1,6 @@
 ## Netflix Clone
 
-[netflix-rec.webm](https://github.com/abhrajitray77/netflix_clone/assets/67530432/314845a0-068f-4cd8-b819-60acd6fa31e1)
+[net.mp4](https://github.com/abhrajitray77/netflix_clone/assets/67530432/7e04df5e-bf01-477d-91ea-9d2b4eb16fb3)
 
 ## Tech Stack:
 Next.js, Tailwind CSS, Typescript, TMDB API
